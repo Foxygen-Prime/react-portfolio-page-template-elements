@@ -16,6 +16,13 @@ import BaseLayout from './components/BaseLayout';
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
+      {/* <nav>
+        <NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink>
+        <NavLink activeClassName="selected" className="nav-link" to="/About">About</NavLink>
+        <NavLink activeClassName="selected" className="nav-link" to="/Portfolio">Portfolio</NavLink>
+        <NavLink activeClassName="selected" className="nav-link" to="/Contact">Contact</NavLink>
+        <NavLink activeClassName="selected" className="nav-link" to="/References">References</NavLink>
+      </nav> */}
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/About" component={About}/>
