@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 
 import Home from './components/Home';
 import About from './components/About';

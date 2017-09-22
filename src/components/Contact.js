@@ -14,7 +14,6 @@ export default class Contact extends Component {
         <p>Integers: 1-512-Dog-Show</p>
         <br></br>
         </div>
-        
       </div>
     )
   }

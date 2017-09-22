@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+.nav-link  {
+  color: gray;
+}
+.nav-link:hover {
+  color: darkgray
+}
+.nav-link:focus, .selected {
+  background-color: #eee;
+  color: darkgray;
+}
